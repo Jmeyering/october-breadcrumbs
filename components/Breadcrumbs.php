@@ -85,6 +85,15 @@ class Breadcrumbs extends ComponentBase
         foreach ($pages as $page) {
             //strip off forward slash
 
+            $page->addVisible([
+                    'crumb_title', 
+                    'crumbElementTitle', 
+                    'crumb_disabled', 
+                    'remove_crumb_trail', 
+                    'hide_crumb', 
+                    'child_of'
+            ]);
+
             $pagesList[$page->baseFileName] = [
                 'baseFileName'   => $page->baseFileName,
                 'url'            => $page->url,
