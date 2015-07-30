@@ -1,6 +1,14 @@
 Mey Breadcrumb Plugin
 =====================
 
+## Looking for plugin maintainer
+I no longer actively manage any octobercms projects so its pretty impossible for me
+to keep up with maintaining this project.
+
+If you are interested in maintaining this plugin let me know.
+
+---
+
 Breadcrumbs allows you to build out the your pages structure and render breadcrumbs.
 Its easy to set up your pages to take advantage of the new breadcrumbs, once the
 plugin is installed you can access all breadcrumb settings from the 'Breadcrumbs'
