@@ -5,7 +5,7 @@
 {% for crumb in breadcrumbs %}
     {% if crumb.in_crumb_trail %}
     <li class="{{crumbOptions['main-li-class']}} {% if crumb.crumb_disabled %} {{crumbOptions['disabled-class']}} {% endif %} {% if loop.last %} {{crumbOptions['active-class']}} {% endif %}" {% if loop.last %} id="bcLast" {% endif %}>
-        {% if not loop.last and not crumb.crumb_disabled %} <a href="{{crumb.baseFileName | page}}"> {% endif %} {{crumb.title}} {% if not loop.last and not crumb.is_disabled %}</a>{% endif %}
+        {% if not loop.last and not crumb.crumb_disabled %} <a href="{{crumb.baseFileName | page}}"> {% endif %} {{crumb.title}} {% if not loop.last and not crumb.crumb_disabled %}</a>{% endif %}
     </li>
     {% endif %}
 
